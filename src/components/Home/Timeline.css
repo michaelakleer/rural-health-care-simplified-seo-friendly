@@ -1,0 +1,248 @@
+@media (min-width: 1025px) {
+  *,
+  *:after,
+  *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .main {
+    width: 95%;
+    max-width: 69em;
+    margin: 0 auto;
+    padding: 0 1.875em 3.125em;
+  }
+  /* The line */
+  .timeline {
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+  }
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    width: 10px;
+    background: #a5ddf7;
+    left: 20%;
+  }
+
+  /* The date/time */
+
+  .timeline > li .tmtime {
+    display: block;
+    width: 25%;
+    padding-right: 90px;
+    position: absolute;
+  }
+
+  .timeline > li .tmtime span {
+    display: block;
+    text-align: right;
+  }
+
+  .timeline > li .tmtime span:last-child {
+    font-size: 26px;
+    color: #2885c0;
+  }
+
+  .timeline > li:nth-child(odd) .tmtime span:last-child {
+    color: #4cb5d3;
+  }
+
+  /* Right content */
+  .timeline > li .label {
+    margin: -30px 0px 60px 25%;
+    background: #2885c0;
+    color: #fff;
+    padding: 2em;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.4;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  .timeline > li:nth-child(odd) .label {
+    background: #4cb5d3;
+  }
+
+  .timeline > li .label h2 {
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  /* The triangle */
+  .timeline > li .label:after {
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #3594cb;
+    border-width: 10px;
+    top: 10px;
+  }
+
+  .timeline > li:nth-child(odd) .label:after {
+    border-right-color: #6cbfee;
+  }
+
+  /* The icons */
+  .timeline > li .icon {
+    width: 40px;
+    height: 40px;
+    font-family: "ecoico";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 1.4em;
+    line-height: 40px;
+    color: #fff;
+    background: #46a4da;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #a5ddf7;
+    text-align: center;
+    margin: 0px 0px 0px 193px;
+    z-index: 33;
+    position: absolute;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  *,
+  *:after,
+  *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .main {
+    width: 100%;
+    max-width: 69em;
+    margin: 0 auto;
+  }
+
+  /* The date/time */
+
+  .timeline ::marker {
+    color: #eeeeee;
+  }
+
+  .timeline > li .tmtime {
+    display: block;
+    width: 100%;
+  }
+
+  .timeline > li .tmtime span {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .timeline > li .tmtime span:last-child {
+    font-size: 26px;
+    color: #2885c0;
+  }
+
+  .timeline > li:nth-child(odd) .tmtime span:last-child {
+    color: #4cb5d3;
+  }
+
+  /* Right content */
+  .timeline > li .label {
+    margin: 0 auto 10px;
+    background: #2885c0;
+    color: #fff;
+    padding: 13px 8px 1px;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.4;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  .timeline > li:nth-child(odd) .label {
+    background: #4cb5d3;
+  }
+
+  .timeline > li .label h2 {
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+}
+
+@media (max-width: 767px) {
+  *,
+  *:after,
+  *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .main {
+    width: 100%;
+    max-width: 69em;
+    margin: 0 auto;
+  }
+
+  /* The date/time */
+
+  .timeline ::marker {
+    color: #eeeeee;
+  }
+
+  .timeline > li .tmtime {
+    display: block;
+    width: 100%;
+  }
+
+  .timeline > li .tmtime span {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .timeline > li .tmtime span:last-child {
+    font-size: 26px;
+    color: #2885c0;
+  }
+
+  .timeline > li:nth-child(odd) .tmtime span:last-child {
+    color: #4cb5d3;
+  }
+
+  /* Right content */
+  .timeline > li .label {
+    margin: 0 auto 10px;
+    background: #2885c0;
+    color: #fff;
+    padding: 13px 8px 1px;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.4;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  .timeline > li:nth-child(odd) .label {
+    background: #4cb5d3;
+  }
+
+  .timeline > li .label h2 {
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+}

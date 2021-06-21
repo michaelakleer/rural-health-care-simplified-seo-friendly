@@ -1,0 +1,715 @@
+@media (min-width: 1025px) {
+  .Home {
+    background: #4cb5d3;
+  }
+
+  .Home .homeOne {
+    position: relative;
+    padding: 17.25rem 60px 16rem 350px;
+    text-align: right;
+    line-height: 50px;
+  }
+
+  .Home .homeTwo {
+    text-align: center;
+    display: flex;
+  }
+
+  .Home .homeFour {
+    padding: 30px 60px;
+  }
+
+  .Home .container {
+    display: grid;
+  }
+
+  .Home .opening {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+  }
+
+  .Home .pdfs {
+    width: 50%;
+    padding: 20px 50px;
+    border-radius: 8px;
+    background: #eeeeee;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+    margin: 10px 20px 10px 60px;
+  }
+
+  .Home .events {
+    width: 45%;
+    padding: 20px 50px;
+    border-radius: 8px;
+    background: #eeeeee;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+    margin: 10px 60px 10px 20px;
+  }
+
+  .Home .events h2 {
+    color: #4cb5d3;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .Home .reportContainer {
+    margin-bottom: 8px;
+  }
+
+  .Home .boxOne p {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Home .pdfDescription {
+    font-size: 17px;
+    padding-top: 11px;
+    text-align: justify;
+    color: #585858;
+  }
+
+  .Home .boxThree {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .Home .boxThree .link {
+    color: #fff;
+    font-family: "Arimo", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 1px 1px #575757;
+  }
+
+  .Home .boxThree .link:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .Home .boxThree .pdfIcon {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: auto;
+  }
+
+  .Home .boxFour {
+    padding: 5px 0 0 15px;
+  }
+
+  .Home .boxFour p {
+    color: #585858;
+    font-size: 18px;
+  }
+
+  .Home .boxFour a {
+    color: #4cb5d3;
+    text-decoration: none;
+  }
+
+  .Home .boxFour a:hover {
+    text-decoration: underline;
+  }
+
+  .Home .execLink,
+  .Home .finalLink {
+    width: 50%;
+    font-size: 18px;
+    background: #4cb5d3;
+    border-radius: 8px;
+    padding: 4px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+  }
+
+  .Home .execLink {
+    margin: 5px 8px 0 0;
+  }
+
+  .Home .finalLink {
+    margin: 5px 0 0 8px;
+  }
+
+  .Home .reportImage {
+    float: left;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+    margin: 10px 15px 5px 0;
+  }
+
+  .wabKinew {
+    width: 188px;
+    height: 243px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+  }
+
+  .events h2 {
+    margin-bottom: 5px;
+  }
+
+  .Home .changeContainer {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+  }
+
+  .Home .homeThree h2 {
+    text-align: center;
+    padding: 50px 0 20px;
+    color: #fff;
+    text-shadow: 2px 2px #575757;
+  }
+
+  .Home .changeContainer h3 {
+    padding-bottom: 30px;
+  }
+
+  .eventContainer {
+    text-align: left;
+  }
+
+  .timelineContainer {
+    text-align: center;
+    padding: 40px 0;
+    background: #f7f7f7;
+    line-height: 25px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+    border-radius: 8px;
+  }
+
+  .timelineContainer h1 {
+    color: #4cb5d3;
+    padding-bottom: 80px;
+    text-shadow: 2px 2px #cdcdcd;
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .Home .titleDownload {
+    margin-top: -65px;
+    text-align: left;
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    text-shadow: 5px 5px #4cb5d3;
+  }
+
+  .Home .titleEvents {
+    margin-top: -65px;
+    margin-left: -5px;
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    text-shadow: 5px 5px #4cb5d3;
+  }
+
+  .Home .eventInfo {
+    display: flex;
+  }
+
+  .Home .eventTime {
+    margin-top: 10px;
+  }
+
+  .eventTime h2 {
+    padding-top: 5px;
+  }
+
+  .Home .eventTime p {
+    padding: 5px 0 0;
+    margin-bottom: 0 !important;
+    color: #4cb5d3;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Home {
+    height: 100%;
+    width: 100%;
+    background: #4cb5d3;
+  }
+
+  .Home .homeOne {
+    background: #4cb5d3;
+    padding: 19rem 18px 14rem 18px;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .Home .homeTwo {
+    background: #4cb5d3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Home .homeThree {
+    padding: 0 30px;
+  }
+
+  .Home .homeFour {
+    background: #eeeeee;
+    padding: 30px 18px;
+  }
+
+  .Home .pdfs {
+    background: #eeeeee;
+    padding: 20px 20px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+  }
+
+  .Home .events {
+    margin-top: 40px;
+    background: #eeeeee;
+    padding: 20px 10px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+  }
+
+  .Home .eventInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Home .reportImage {
+    float: left;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+    margin: 10px 15px 5px 0;
+  }
+
+  .wabKinew {
+    margin: 0 auto;
+    width: 158px;
+    height: 213px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+  }
+
+  .Home .container {
+    display: grid;
+  }
+
+  .Home .opening {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    text-align: right;
+  }
+
+  .Home .events h2 {
+    color: #4cb5d3;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .Home .reportContainer {
+    margin-bottom: 8px;
+  }
+
+  .Home .boxOne p {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Home .pdfDescription {
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: justify;
+    color: #585858;
+  }
+
+  .Home .boxThree {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  .Home .boxThree .link {
+    color: #fff;
+    font-family: "Arimo", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 1px 1px #575757;
+  }
+
+  .Home .boxThree .link:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .Home .boxThree .pdfIcon {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: auto;
+  }
+
+  .Home .boxFour {
+    padding: 5px 0 0 15px;
+  }
+
+  .Home .boxFour p {
+    color: #585858;
+    font-size: 18px;
+  }
+
+  .Home .boxFour a {
+    color: #4cb5d3;
+    text-decoration: none;
+  }
+
+  .Home .boxFour a:hover {
+    text-decoration: underline;
+  }
+
+  .Home .execLink,
+  .Home .finalLink {
+    font-size: 20px;
+    background: #4cb5d3;
+    border-radius: 8px;
+    padding: 4px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+    width: 50%;
+  }
+
+  .Home .execLink {
+    margin-right: 20px;
+  }
+
+  .Home .finalLink {
+    margin-left: 20px;
+  }
+
+  .events h2 {
+    margin-bottom: 5px;
+  }
+
+  .Home .changeContainer {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 0 50px 50px;
+  }
+
+  .Home .homeThree h2 {
+    text-align: center;
+    padding: 50px 0 20px;
+    color: #fff;
+    text-shadow: 2px 2px #575757;
+  }
+
+  .Home .changeContainer h3 {
+    padding-bottom: 30px;
+  }
+
+  .eventContainer {
+    text-align: left;
+  }
+
+  .timelineContainer {
+    text-align: center;
+    padding: 20px 0 0;
+    line-height: 25px;
+  }
+
+  .timelineContainer h1 {
+    color: #4cb5d3;
+    padding-bottom: 40px;
+    text-shadow: 2px 2px #cdcdcd;
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .Home .titleDownload {
+    margin-top: -55px;
+    margin-left: 0;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    text-shadow: 5px 5px #4cb5d3;
+    text-align: left;
+  }
+
+  .Home .titleEvents {
+    margin-top: -55px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    text-shadow: 5px 5px #4cb5d3;
+    text-align: left;
+  }
+
+  .Home .eventTime {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .eventTime h2 {
+    padding-top: 5px;
+  }
+
+  .Home .eventTime p {
+    padding: 5px 0 0;
+    margin-bottom: 0 !important;
+    color: #4cb5d3;
+  }
+}
+
+@media (max-width: 767px) {
+  .Home {
+    height: 100%;
+    width: 100%;
+    background: #4cb5d3;
+  }
+
+  .Home .homeOne {
+    background: #4cb5d3;
+    padding: 12rem 18px 8rem 18px;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .Home .homeTwo {
+    background: #4cb5d3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Home .homeFour {
+    background: #eeeeee;
+    padding: 30px 18px;
+  }
+
+  .Home .pdfs {
+    background: #eeeeee;
+    padding: 20px 10px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+  }
+
+  .Home .events {
+    margin-top: 40px;
+    background: #eeeeee;
+    padding: 20px 10px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+  }
+
+  .Home .eventInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Home .reportImage {
+    float: left;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+    margin: 10px 15px 5px 0;
+  }
+
+  .wabKinew {
+    margin: 0 auto;
+    width: 158px;
+    height: 213px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+  }
+
+  .Home .container {
+    display: grid;
+  }
+
+  .Home .opening {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+  }
+
+  .Home .events h2 {
+    color: #4cb5d3;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .Home .reportContainer {
+    margin-bottom: 8px;
+  }
+
+  .Home .boxOne p {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Home .pdfDescription {
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: justify;
+    color: #585858;
+  }
+
+  .Home .boxThree {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .Home .boxThree .link {
+    color: #fff;
+    font-family: "Arimo", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 1px 1px #575757;
+  }
+
+  .Home .boxThree .link:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .Home .boxThree .pdfIcon {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: auto;
+  }
+
+  .Home .boxFour {
+    padding: 5px 0 0 15px;
+  }
+
+  .Home .boxFour p {
+    color: #585858;
+    font-size: 18px;
+  }
+
+  .Home .boxFour a {
+    color: #4cb5d3;
+    text-decoration: none;
+  }
+
+  .Home .boxFour a:hover {
+    text-decoration: underline;
+  }
+
+  .Home .execLink,
+  .Home .finalLink {
+    width: 100%;
+    font-size: 18px;
+    background: #4cb5d3;
+    border-radius: 8px;
+    padding: 4px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+  }
+
+  .Home .execLink {
+    margin-bottom: 10px;
+  }
+
+  .Home .finalLink {
+    margin-top: 10px;
+  }
+
+  .events h2 {
+    margin-bottom: 5px;
+  }
+
+  .Home .changeContainer {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+  }
+
+  .Home .homeThree h2 {
+    text-align: center;
+    padding: 50px 0 20px;
+    color: #fff;
+    text-shadow: 2px 2px #575757;
+  }
+
+  .Home .changeContainer h3 {
+    padding-bottom: 30px;
+  }
+
+  .eventContainer {
+    text-align: left;
+  }
+
+  .timelineContainer {
+    text-align: center;
+    padding: 20px 0 0;
+    line-height: 25px;
+  }
+
+  .timelineContainer h1 {
+    color: #4cb5d3;
+    padding-bottom: 40px;
+    text-shadow: 2px 2px #cdcdcd;
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .Home .titleDownload {
+    margin-top: -55px;
+    margin-left: -13px;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    text-shadow: 5px 5px #4cb5d3;
+  }
+
+  .Home .titleEvents {
+    margin-top: -55px;
+    margin-left: 78px;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    text-shadow: 5px 5px #4cb5d3;
+  }
+
+  .Home .eventTime {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .eventTime h2 {
+    padding-top: 5px;
+  }
+
+  .Home .eventTime p {
+    padding: 5px 0 0;
+    margin-bottom: 0 !important;
+    color: #4cb5d3;
+  }
+}

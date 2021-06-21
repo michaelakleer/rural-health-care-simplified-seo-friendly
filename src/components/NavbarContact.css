@@ -1,0 +1,48 @@
+:root {
+  --primary: #fff;
+}
+
+.navbarBtn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #4cb5d3;
+}
+
+.navbarBtn:hover {
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+  background: #f7f7f7;
+  color: #4cb5d3;
+  transition: 250ms;
+}
+
+.navbarBtn--primary {
+  background-color: var(--primary);
+}
+
+.navbarBtn--outline {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.navbarBtn--medium {
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #4cb5d3;
+  font-weight: 700;
+}
+
+.navbarBtn--large {
+  padding: 12px 26px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #fff;
+}

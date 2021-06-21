@@ -1,0 +1,57 @@
+@media (min-width: 1025px) {
+  .SignUp {
+    font-family: "Montserrat", sans-serif;
+    padding: 0 117px;
+  }
+
+  .SignUp ::placeholder {
+    color: #575757;
+  }
+
+  .SignUp .signupLabel {
+    font-size: 20px;
+  }
+
+  .SignUp .btn {
+    padding: 4px 10px !important;
+    color: #575757;
+    border-color: #ffffff;
+    background: #4cb5d3;
+    color: #fff;
+  }
+
+  .SignUp .btn:hover {
+    padding: 4px 10px !important;
+    background: #fff;
+    color: #4cb5d3;
+  }
+}
+
+@media (max-width: 767px) {
+  .SignUp {
+    font-family: "Montserrat", sans-serif;
+    padding: 0 30px;
+  }
+
+  .SignUp ::placeholder {
+    color: #575757;
+  }
+
+  .SignUp .signupLabel {
+    font-size: 20px;
+  }
+
+  .SignUp .btn {
+    padding: 4px 10px !important;
+    color: #575757;
+    border-color: #ffffff;
+    background: #4cb5d3;
+    color: #fff;
+  }
+
+  .SignUp .btn:hover {
+    padding: 4px 10px !important;
+    background: #fff;
+    color: #4cb5d3;
+  }
+}
